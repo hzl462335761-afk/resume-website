@@ -1,0 +1,134 @@
+:root {
+  /* Colors - Modern Premium Design System */
+  /* Primary colors - Vibrant blue with depth */
+  --color-primary: #4f46e5; /* Indigo - modern, professional, trustworthy */
+  --color-primary-accent: #4338ca; /* Darker indigo - hover/active states */
+  --color-primary-light: #6366f1; /* Lighter indigo - accents */
+  --color-primary-muted: #e0e7ff; /* Very light indigo - subtle backgrounds */
+  
+  /* Secondary colors - Harmonized with primary */
+  --color-secondary: #06b6d4; /* Cyan - complementary, fresh, modern */
+  --color-secondary-accent: #0891b2; /* Darker cyan - hover/active states */
+  --color-secondary-light: #22d3ee; /* Lighter cyan - accents */
+  
+  /* Accent colors - Energetic and warm */
+  --color-accent: #f97316; /* Orange - attention-grabbing, energetic */
+  --color-accent-light: #fb923c; /* Lighter orange - hover states */
+  --color-accent-muted: #ffedd5; /* Very light orange - subtle backgrounds */
+  
+  /* Background colors - Enhanced with subtle gradients */
+  --color-background: #ffffff; /* Pure white - clean background */
+  --color-surface: #fafafa; /* Very light gray - card backgrounds */
+  --color-surface-alt: #f5f5f5; /* Light gray - section backgrounds */
+  --color-surface-hover: #f0f0f0; /* Gray hover state - enhanced interactivity */
+  --color-surface-gradient: linear-gradient(135deg, #fafafa 0%, #f5f5f5 50%, #fafafa 100%); /* Subtle gradient */
+  
+  /* Text colors - Improved contrast and readability */
+  --color-text: #0f172a; /* Dark slate - main text with better contrast */
+  --color-text-muted: #64748b; /* Medium slate - secondary text */
+  --color-text-light: #94a3b8; /* Light slate - tertiary text */
+  
+  /* Border colors - Harmonized with background */
+  --color-border: #e5e7eb; /* Light gray border */
+  --color-border-light: #f3f4f6; /* Very light gray border */
+  --color-border-hover: #d1d5db; /* Border hover state */
+  
+  /* Status colors - Modern and vibrant */
+  --color-success: #10b981; /* Green - success states */
+  --color-error: #ef4444; /* Red - error states */
+  --color-warning: #f59e0b; /* Amber - warning states */
+  --color-info: #3b82f6; /* Blue - info states */
+  
+  /* System colors - Modern palette */
+  --color-system-blue: #3b82f6; /* System blue */
+  --color-system-green: #10b981; /* System green */
+  --color-system-orange: #f97316; /* System orange */
+  --color-system-red: #ef4444; /* System red */
+  --color-system-yellow: #fbbf24; /* System yellow */
+  --color-system-purple: #8b5cf6; /* System purple */
+  --color-system-pink: #ec4899; /* System pink */
+  
+  /* Gradient colors - Enhanced visual interest */
+  --gradient-primary: linear-gradient(135deg, #4f46e5 0%, #6366f1 50%, #818cf8 100%);
+  --gradient-secondary: linear-gradient(135deg, #06b6d4 0%, #22d3ee 50%, #67e8f9 100%);
+  --gradient-accent: linear-gradient(135deg, #f97316 0%, #fb923c 50%, #fdba74 100%);
+  --gradient-subtle: linear-gradient(135deg, rgba(79, 70, 229, 0.08) 0%, rgba(6, 182, 212, 0.08) 100%);
+  --gradient-hero: linear-gradient(135deg, #4f46e5 0%, #06b6d4 100%);
+  
+  /* Typography - Modern Premium Design */
+  /* Font family */
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  
+  /* Font sizes - Modern typography scale with better hierarchy */
+  --font-size-display: 4rem; /* 64px - Hero title - larger for impact */
+  --font-size-xxl: 3rem; /* 48px - Section titles */
+  --font-size-xl: 2.5rem; /* 40px - Subtitles */
+  --font-size-lg: 1.5rem; /* 24px - Large body text */
+  --font-size-md: 1.125rem; /* 18px - Main body text */
+  --font-size-sm: 1rem; /* 16px - Small body text */
+  --font-size-xs: 0.875rem; /* 14px - Captions */
+  --font-size-xxs: 0.75rem; /* 12px - Small captions */
+  --font-size-micro: 0.625rem; /* 10px - Tiny text */
+  
+  /* Font weights - Modern weight scale */
+  --font-weight-bold: 700; /* Bold for emphasis */
+  --font-weight-semibold: 600; /* Semibold for headings */
+  --font-weight-medium: 500; /* Medium for subheadings */
+  --font-weight-regular: 400; /* Regular for body text */
+  --font-weight-light: 300; /* Light for large text */
+  
+  /* Line heights - Optimized for readability */
+  --line-height-tight: 1.2; /* Tight for headlines */
+  --line-height-normal: 1.5; /* Normal for body text */
+  --line-height-relaxed: 1.7; /* Relaxed for long text */
+  --line-height-loose: 1.9; /* Loose for large text */
+  
+  /* Letter spacing - Enhanced readability */
+  --letter-spacing-tight: -0.02em; /* Tight for large headings */
+  --letter-spacing-normal: 0; /* Normal for body */
+  --letter-spacing-wide: 0.01em; /* Wide for uppercase */
+  --letter-spacing-wider: 0.05em; /* Wider for labels */
+  
+  /* Spacing - Generous whitespace for modern feel */
+  --space-1: 0.25rem; /* 4px */
+  --space-2: 0.5rem; /* 8px */
+  --space-3: 0.75rem; /* 12px */
+  --space-4: 1rem; /* 16px */
+  --space-5: 1.5rem; /* 24px */
+  --space-6: 2rem; /* 32px */
+  --space-7: 2.5rem; /* 40px */
+  --space-8: 3rem; /* 48px */
+  --space-9: 4rem; /* 64px */
+  --space-10: 5rem; /* 80px */
+  --space-11: 6rem; /* 96px */
+  --space-12: 8rem; /* 128px */
+  --space-16: 12rem; /* 192px - Extra large spacing */
+  
+  --section-spacing-mobile: var(--space-10); /* 80px - More breathing room */
+  --section-spacing-desktop: var(--space-16); /* 192px - Generous desktop spacing */
+  
+  /* Sizes */
+  --max-width: 1400px; /* Wider max width for modern layouts */
+  
+  /* Shadows - Enhanced depth and elevation */
+  --shadow-none: none;
+  --shadow-soft: 0 2px 4px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.06);
+  --shadow-medium: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-strong: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-hover: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --shadow-glow: 0 0 20px rgba(79, 70, 229, 0.15); /* Glow effect for interactive elements */
+  
+  /* Radius - Modern rounded corners */
+  --radius-sm: 8px; /* Small radius */
+  --radius-md: 12px; /* Medium radius */
+  --radius-lg: 16px; /* Large radius */
+  --radius-xl: 24px; /* Extra large radius */
+  --radius-2xl: 32px; /* 2XL radius for hero sections */
+  --radius-full: 9999px; /* Pill shape */
+  
+  /* Transitions - Smooth animations */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-bounce: 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}

@@ -1,0 +1,15 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F4F6FB" />
+  <rect x="60" y="80" width="1080" height="470" rx="48" fill="white" stroke="#E1E5EE" />
+  <text x="120" y="210" font-family="Inter, 'Source Han Sans SC', sans-serif" font-size="54" fill="#2B59C3">
+    Leon Lin · AI Product Manager
+  </text>
+  <text x="120" y="290" font-family="Inter, 'Source Han Sans SC', sans-serif" font-size="28" fill="#5C5C5C">
+    极简 · 专业 · 数据驱动 · Vercel Ready
+  </text>
+  <circle cx="950" cy="315" r="120" fill="#66C1FF" opacity="0.3" />
+  <circle cx="1020" cy="280" r="90" fill="#2B59C3" opacity="0.6" />
+</svg>
+
+
+
